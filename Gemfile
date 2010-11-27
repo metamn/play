@@ -42,3 +42,7 @@ group :cucumber do
     gem 'spork'
     gem 'launchy'
 end
+
+gem "compass", ">= 0.10.6"
+gem "haml"
+gem "haml-rails"
