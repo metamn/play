@@ -43,6 +43,8 @@ group :cucumber do
     gem 'launchy'
 end
 
-gem "compass", ">= 0.10.6"
-gem "haml"
-gem "haml-rails"
+gem 'compass', ">= 0.10.6"
+gem 'haml'
+gem 'haml-rails'
+
+gem 'i18n'

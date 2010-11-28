@@ -139,6 +139,7 @@ DEPENDENCIES
   database_cleaner
   haml
   haml-rails
+  i18n
   launchy
   rails (= 3.0.3)
   rspec-rails (>= 2.0.0.beta.22)
