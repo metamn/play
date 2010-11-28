@@ -48,3 +48,5 @@ gem 'haml'
 gem 'haml-rails'
 
 gem 'i18n'
+
+gem 'web-app-theme', '>= 0.6.2'
