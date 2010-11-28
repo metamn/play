@@ -59,4 +59,8 @@ Play::Application.routes.draw do
   # match ':controller(/:action(/:id(.:format)))'
   
   root :to => "welcome#index"
+  
+  namespace :admin do
+    match 'dashboard' => 'dashboard#index', :via => :get
+  end
 end

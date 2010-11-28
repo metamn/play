@@ -15,7 +15,7 @@ module NavigationHelpers
       root_path
       
     when /the admin\s?page/
-      admin_path
+      admin_dashboard_path
 
     # Add more mappings here.
     # Here is an example that pulls values out of the Regexp:
